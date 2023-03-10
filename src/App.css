@@ -1,3 +1,7 @@
+.hidden{
+  display: none !important;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -39,4 +43,27 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.modal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.159);
+}
+
+.confirm-delete{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+  width: 1000px;
+  height: 500px;
+  background-color: rgba(255, 255, 255, 0.99);
 }
