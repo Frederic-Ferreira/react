@@ -20,7 +20,7 @@ const router = createBrowserRouter([
         element: <App />,
       },
       {
-        path: "/not-found",
+        path: "*",
         element: <h1>Sorry, this page does not exists.</h1>
       }
     ]
